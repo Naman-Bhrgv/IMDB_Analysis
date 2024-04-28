@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SI649-TopIMDBMovies</title>
     <link rel="stylesheet" href="style.css">
-    <style>    
+
+</head>
+
+
+  <style>    
       .image-container {
     width: 600px;
     height: 600px;
@@ -13,7 +17,7 @@
     position: relative;
   }
   
-  .image-container img {
+  /* .image-container img {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -22,71 +26,118 @@
     opacity: 0;
     transition: opacity 1s ease-in-out;
   }
-  
-  .image-container img.active {
+   */
+  /* .image-container img.active {
     opacity: 1;
-  }
+  } */
 .title {
-    font-size: 40px;
+    font-size: 60px;
     color: #ffff00;
     font-weight: bold;
-    padding-bottom: 10px;
-    
+    /* padding-bottom: 10px; */
+    padding : 50px;
   }
 
 .mainbody{
-    font-size: 15px;
+    font-size: 30px;
     color:  #ffffff;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 70px;
     
   }
 .mainbody2{
-    font-size: 15px;
+    font-size: 30px;
+    color : #ffffff;    
+    padding-top: 200px;
+    padding-bottom: 350px;
+    text-align: left;
+
+  }
+.mainbody2-copy{
+  font-size: 20px;
     color : #ffffff;    
     padding-top: 50px;
     padding-bottom: 70px;
-
+    text-align: left;
+}
+.mainbody3{
+    font-size: 20px;
+    color: #ffffff;
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+    text-align: left;
+    /* padding-left: 50px; */
   }
 
-.mainbody3{
-    font-size: 15px;
+  .mainbody3-copy{
+    font-size: 30px;
     color: #ffffff;
-    padding-top: 50px;
-    padding-bottom: 70px;
-
+    padding-top: 70px;
+    padding-bottom: 400px; 
+    /* text-align: left; */
   }
 
 .mainbody4{
-    font-size: 15px;
+    font-size: 30px;
     color: #ffffff;
-    padding-top: 50px;
-    padding-bottom: 70px;;
+    padding-top: 250px;
+    padding-bottom: 400px;
+    text-align: left;
+    /* padding-left: 10px; */
   }
 
+  .mainbody4-copy{
+    font-size: 20px;
+    color: #ffffff;
+    /* padding-top: 50px; */
+    /* padding-bottom: 600px; */
+    text-align: left;
+  }
 .mainbody5{
-    font-size: 15px;
+    font-size: 30px;
     color: #ffffff;
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 360px;
+    /* text-align: left; */
   }
 
+.mainbody5-copy{
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
 .mainbody6{
-    font-size: 15px;
+    font-size: 20px;
     color: #ffffff;
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
+    
   }
 
-#viz1714190550793 {
+/* #viz1714190550793 {
     border: 1px solid #ffffff;
+  } */
+
+  /* .tableauPlaceholder2 {
+    border: 1px solid #ffffff;
+  } */
+
+  .tableauPlaceholder4{
+    /* border: 1px solid #ffffff; */
+    padding-bottom: 100px;
   }
 
+  .mar{
+    height: 190px;
+    width: 150px;
+  }
 
     </style>
     
-</head>
-<body bgcolor="black">
+
+<body bgcolor="#36454F">
     <center>
 
       <div class="title-box">
@@ -95,7 +146,7 @@
       </div>
     <br>
 
-      <div class="image-container" id="image-container">
+      <!-- <div class="image-container" id="image-container">
         <img src="https://imgs.search.brave.com/ghVtvDleERFlk6Er8TO_lMbNO6BCzjTQYUB30DRjUlk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/am9ibG8uY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDI0LzAz/L2V6cmEtbW92aWUt/NDAweDYwMC5qcGc" alt="First Image" class="active">
         <img src="https://imgs.search.brave.com/dELMKO0eK2XHzqiUq4yGJWJsDrZ_KxSpavICgpKoDlU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzU3L2E1/LzAxLzU3YTUwMTBh/MjJhNTc3Y2ExODI1/NjY5YTE0NGNjNDUz/LmpwZw" alt="Second Image">
         <img src="https://imgs.search.brave.com/mjkki5I6a2LCUW9aH1Hx-wBuVaodvJjEd4Neq8pKr1s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/am9ibG8uY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIyLzEy/L0RQM18xU0hUX0RJ/R0lUQUxfc1JHQl9L/QV9GSU5HRVJfVjMt/NDAweDYwMC5qcGc" alt="Third Image">
@@ -105,7 +156,29 @@
       <img src = "https://imgs.search.brave.com/HPsBkGDK_9wkT4d9lpPsH9NydDl4LIu0O9cS5Y3p9Xo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFGSWNDb3piVUwu/anBn ">
       <img src = "https://imgs.search.brave.com/2hqIfRomM5YJn0zlKDRAtfVE_-EfvYZC93eUGvG-PwA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvYTc0/YTU3YzEtMDJkOC00/M2Q3LTliMGUtZTA4/ZDFiM2QzMmRmLmEy/ZTk3MzYzODY2ZDBh/NzIwNmIyNzdiM2Rm/NWVmNzI5LmpwZWc_/b2RuSGVpZ2h0PTc4/NCZvZG5XaWR0aD01/ODAmb2RuQmc9RkZG/RkZG">
       
-      </div>
+      </div> -->
+
+      <marquee behavior="alternate" direction="left">
+        <img src = "https://imgs.search.brave.com/ghVtvDleERFlk6Er8TO_lMbNO6BCzjTQYUB30DRjUlk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/am9ibG8uY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDI0LzAz/L2V6cmEtbW92aWUt/NDAweDYwMC5qcGc" class ="mar" >
+        <img src = "https://imgs.search.brave.com/dELMKO0eK2XHzqiUq4yGJWJsDrZ_KxSpavICgpKoDlU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzU3L2E1/LzAxLzU3YTUwMTBh/MjJhNTc3Y2ExODI1/NjY5YTE0NGNjNDUz/LmpwZw " class="mar">
+        <img src = " https://imgs.search.brave.com/mjkki5I6a2LCUW9aH1Hx-wBuVaodvJjEd4Neq8pKr1s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/am9ibG8uY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIyLzEy/L0RQM18xU0hUX0RJ/R0lUQUxfc1JHQl9L/QV9GSU5HRVJfVjMt/NDAweDYwMC5qcGc" class ="mar">
+        <img src = " https://imgs.search.brave.com/H8qwbtFCfRAHwdQkdonFZqRFZUqGtRxF-qD_ArI8MXc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWdj/LmFsbHBvc3RlcnNp/bWFnZXMuY29tL2lt/Zy9wcmludC9fdS1N/LUY0UzZQSDAuanBn/P2JhY2tncm91bmQ9/ZmZmZmZmJmFydFBl/cnNwZWN0aXZlPW4" class ="mar">
+        <img src = "https://imgs.search.brave.com/ZFnPC7s4E3dZSCSNipnvlDMDyqVBGQQt4FnF-TWl7sw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29tcGFueWZvbGRl/cnMuY29tL2Jsb2cv/bWVkaWEvMjAxNy8w/Ny90aGUtdGhpbmcu/anBn " class ="mar">
+        <img src = " https://imgs.search.brave.com/4vc2pwqmDvIkY2FmmXU7ViR2YmS--nn9PyIBaoJtM0E/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvYmU5/Y2M2Y2MtYTU0YS00/ZDRmLWEzMDYtNTM5/MTU4ZGE5ZmIxLjZi/N2RkMjc2ZDg0ZmZm/ODliZTk1YzYzMzE2/MzI1MzJlLmpwZWc_/b2RuSGVpZ2h0PTc4/NCZvZG5XaWR0aD01/ODAmb2RuQmc9RkZG/RkZG" class ="mar">
+        <img src = "https://imgs.search.brave.com/HPsBkGDK_9wkT4d9lpPsH9NydDl4LIu0O9cS5Y3p9Xo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFGSWNDb3piVUwu/anBn " class ="mar">
+        <img src = "https://imgs.search.brave.com/2hqIfRomM5YJn0zlKDRAtfVE_-EfvYZC93eUGvG-PwA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvYTc0/YTU3YzEtMDJkOC00/M2Q3LTliMGUtZTA4/ZDFiM2QzMmRmLmEy/ZTk3MzYzODY2ZDBh/NzIwNmIyNzdiM2Rm/NWVmNzI5LmpwZWc_/b2RuSGVpZ2h0PTc4/NCZvZG5XaWR0aD01/ODAmb2RuQmc9RkZG/RkZG" class ="mar">
+        <img src = "https://imgs.search.brave.com/2D1okgLwLqiNj2BDSyzk2YS2n03IWLICEtex2jVxdyI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9maWxt/YXJ0Z2FsbGVyeS5j/b20vY2RuL3Nob3Av/cHJvZHVjdHMvU3Rh/ci1XYXJzLVZpbnRh/Z2UtTW92aWUtUG9z/dGVyLU9yaWdpbmFs/LTIyeDMyX2dyYW5k/ZS5wcm9ncmVzc2l2/ZS5qcGc_dj0xNjcz/NjcyNDk5"  class ="mar" >
+        <img src = "https://imgs.search.brave.com/cnkzA9ffKJ56b2s9Jb84sG6z37UrT3gLba_QxH8h9Rc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9tb3ZpZS1wb3N0/ZXJfMTAwOTg1MC0y/NTYuanBnP3NpemU9/NjI2JmV4dD1qcGc"  class ="mar" >
+        <img src = "https://imgs.search.brave.com/-VSXxYbftu0Q0Vh0fMbncj-KEyTld8yriLbr6Gk3LPY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDU4/NDY3MTYzL3Bob3Rv/L3RoZS1maXJzdC1h/dmVuZ2VyLW1vdmll/LXBvc3Rlci5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9NUNt/c1hzcXhMbkhTdVBJ/NDJFWmRabFRJU3U5/aUw2U0pCRkotQVFE/QUdSRT0"  class ="mar" >
+        <img src = "https://imgs.search.brave.com/lffbmEbBlgN3UrQ-mipfccHhrjDJowLx2weyXdEuGII/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzExMDQ1MTkwL2Mv/MjAwMC8yMDAwLzgv/MTAwL2lsL2NhYzU0/ZS81MjIxNzYwOTAw/L2lsXzYwMHg2MDAu/NTIyMTc2MDkwMF9r/YnQyLmpwZw"  class ="mar" >
+        <img src = "https://imgs.search.brave.com/1ybWrmZg4_AwsM2DVqZXhm7fGsdsIGj3Y36vzbB8Bsg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzY4Lzg4LzQy/LzM2MF9GXzE2ODg4/NDI5OV9DM2lmUXk1/UnpYSTl1bzJDMUF2/TDJ0RjlDcE01ZWpX/aC5qcGc"  class ="mar" >
+        <img src = "https://imgs.search.brave.com/RL92TkUrZ6M77ceooZ2VtrlkJU9VKU31uErFfmpquIc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzE1Lzc0/LzllLzE1NzQ5ZTFi/Y2I1Mzk2NDkxOTMx/YTdmYTIzZjA0NTU2/LmpwZw"  class ="mar" >
+        <img src = "https://imgs.search.brave.com/tOUsdYEt0Y5AigMI75aigCmv7ZjrcTe7XRiDpodbPY8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFEYXBI/SWdyNFEvMS8wLzEx/MzF3L2NhbnZhLWJs/YWNrLWFuZC13aGl0/ZS1tb3ZpZS1wb3N0/ZXIteDRoYlVFaHdK/UEUuanBn"  class ="mar" >
+        <img src = "https://imgs.search.brave.com/Nvj7F_7ZHEmxPMw7ElBA8InrxakjzqsTF2vZq7BBHM4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzBmLzY4/L2FiLzBmNjhhYmI0/OWZkYzc1Y2RjOGYw/YjgzYWY0YzcxZTFm/LmpwZw"  class ="mar" >
+        <img src = "https://imgs.search.brave.com/HgpGRrdj6DdeKEj7l1Ay8EsZ4T2Iy_D5RwXHSIEQUEg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAzLzgxLzU2Lzc1/LzM2MF9GXzM4MTU2/NzU5NV9lWDgzSHVq/bVZJQW1INWgwY05N/OTdyUGRHSXlJeUVL/Uy5qcGc"  class ="mar" >
+        <img src = "https://imgs.search.brave.com/NAivVGESd5Mnw27Rw8gzPOW-b7wFVqbVVFu1R3-iF5s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jNC53/YWxscGFwZXJmbGFy/ZS5jb20vd2FsbHBh/cGVyLzI3NC83Mi85/ODUvam9obi13aWNr/LW1vdmllcy1tb3Zp/ZS1wb3N0ZXItd2Fs/bHBhcGVyLXByZXZp/ZXcuanBn"  class ="mar" >
+        <img src = "https://imgs.search.brave.com/geFS_OdMvD5S-kRIKN6G4DYsXTnmqEztUZmnismZGso/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFFMVF4/QmZTWUkvMi8wLzEx/MzF3L2NhbnZhLWJl/aWdlLXNpbXBsZS1t/b3ZpZS1wb3N0ZXIt/bG92ZS1LbEF4ek9o/YTFyby5qcGc" class ="mar">
+      </marquee>
       
     
     <script>
@@ -130,38 +203,56 @@
 
     <div style="display: inline">
     <div class='tableauPlaceholder' id='viz1714190550793' style="width:75%; display: inline-block; float:left;"><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mo&#47;Mostprofitablegenre_17141800016920&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Mostprofitablegenre_17141800016920&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mo&#47;Mostprofitablegenre_17141800016920&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1714190550793');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <div class = "mainbody2" style=" width:25%; display: inline-block"> Most Profitable Genres from 1931 to 2022 Based on Different Certifications </div>
 
-
-    <div class = "mainbody2" style="width: 24%; display: inline-block"> In the early years of cinema, spanning the 1930s and 1940s, the top performing categories included War, Drama and Comedy, which were predominantly released with G ratings. These crowd-pleasing genres resonated with audiences during the Movie’s Golden Age.
+    <div class= mainbody2-copy> 
+      In the early years of cinema, spanning the 1930s and 1940s, the top performing categories included War, Drama and Comedy, which were predominantly released with G ratings. These crowd-pleasing genres resonated with audiences during the Movie’s Golden Age.
       As the decades progressed, shifts in audience preferences and industry standards became apparent. By the mid-century, the box office was increasingly dominated by a lot more new genres like Horror, Sci-Fi, Comedy etc, many of which carried G, PG, PG-13 and 18+ certificate classifications. The emergence of these various genres coincided with the rise of blockbuster filmmaking and the development of new cinematic technologies.
       Entering the 21st century, the ascendance of franchises and big-budget spectacles reached new heights. From 2018-2022, the most profitable genres included Crime, Thriller and Drama with a significant number of films carrying 18+ and PG-13 ratings. These contemporary blockbusters often blend multiple genre elements and leverage established intellectual property to attract massive audiences.
       </div>
-    </div>
+
+
+
+
     <div style="display: inline" padding-bottom="25 px">
-        <div class='tableauPlaceholder2' id='viz1714191453648' style="width:75%; display: inline-block; float:right;"><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;de&#47;dendogram_17141044424220&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dendogram_17141044424220&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;de&#47;dendogram_17141044424220&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1714191453648');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='707px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='707px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <!-- <div class='tableauPlaceholder2' id='viz1714191453648' style="width:75%; display: inline-block; float:right;"><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;de&#47;dendogram_17141044424220&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dendogram_17141044424220&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;de&#47;dendogram_17141044424220&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1714191453648');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='707px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='707px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
+        <div class='tableauPlaceholder2' id='viz1714279615919' style="width:60%; display: inline-block; float:right;"><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;de&#47;dendogram_17141044424220&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dendogram_17141044424220&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;de&#47;dendogram_17141044424220&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1714279615919');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='700px';vizElement.style.height='577px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='700px';vizElement.style.height='577px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        
 
-        <div class = "mainbody3" style="width: 24%; display: inline-block"> <br><br><br> Based on the box office revenues for different movies in Italy, it's clear that certain films have emerged as massive blockbuster hits in that market. For instance, "Life Is Beautiful" tops the chart with an impressive $141,777,554 gross, followed by "Downfall" at $1,659,268,332. Other notable successes include "Hotel Rwanda" ($406,586,916) and "Cinema Paradiso" ($156,228,756). 
-          These numbers underscore the ability of Italian filmmakers to craft compelling stories that resonate not just domestically but with audiences around the world. The diverse range of genres represented — from poignant dramas to historical epics — speaks to the richness and variety of Italian cinema. As the global appetite for international content continues to grow, it's likely that we'll see even more breakout hits emerging from Italy and other countries in the years to come, as studios seek to tap into the country's deep well of storytelling talent.          
-          </div>
+        <div class = "mainbody3-copy" style="width: 40%; display: inline-block"> <br><br><br> Top Movies - Based on Countries that make to Top 250 IMDB List</div>
+
+        <div class="mainbody3"> The dendrogram visualization allows us to dive deeper into the international box office landscape, exploring how the blockbuster phenomenon has played out in specific countries. Just as the previous visualization highlighted the evolution of genre and certification trends over time, this chart reveals how those trends have manifested in different national contexts. In Canada, for example, we see the enduring appeal of big-budget science fiction, with films like "Interstellar" dominating the box office. Germany, meanwhile, showcases a mix of historical dramas and high-concept thrillers, reflecting a market that values both prestige and popcorn entertainment. South Korea's chart-topper, "Oldboy", points to a thriving domestic industry that can compete with Hollywood imports. And in the United States, the overwhelming success of franchise films like The Lord of the Rings underscores the increasing importance of established IP in the modern blockbuster economy.
+        </div>
+
+        <div class = "mainbody3"> Taken together, these snapshots paint a picture of a global film landscape that is both remarkably diverse and increasingly interconnected. As the dendrogram shows, the highest-grossing films in each country often reflect a unique mix of cultural values, audience preferences, and industry trends. At the same time, the presence of international hits like "Interstellar" and "The Lord of the Rings" suggests that the blockbuster formula pioneered in Hollywood has the power to transcend borders and unite audiences around the world.
+
+          
+          As the movie industry continues to evolve in the 21st century, it will be fascinating to see how these national and global trends intersect and influence each other. Will the increasing dominance of franchises and spectacle-driven blockbusters homogenize the global film landscape, or will we see a resurgence of locally-produced, culturally-specific stories that can break through on the international stage? The data presented in this dendrogram offers tantalizing clues, inviting us to ponder the future of cinema in an increasingly interconnected world.          
+        </div>
+
     </div>
 
-    <br><br><br><br><br><br><br><br>
+    <!-- <br><br><br><br><br><br><br><br> -->
 
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- <br><br><br><br><br><br><br><br><br><br><br><br> -->
     <div style="display: inline">
-          <div class='tableauPlaceholder4' id='viz1714202702481' style="width:50%; display: inline-block; float:right;"><noscript><a href='#'><img alt='Simple Network Graph ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;Dir-moviesnode-linkchart&#47;SimpleNetworkGraph&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dir-moviesnode-linkchart&#47;SimpleNetworkGraph' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;Dir-moviesnode-linkchart&#47;SimpleNetworkGraph&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1714202702481');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='600px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          <!-- <div class='tableauPlaceholder4' id='viz1714202702481' style="width:70%; display: inline-block; float:right;"><noscript><a href='#'><img alt='Simple Network Graph ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;Dir-moviesnode-linkchart&#47;SimpleNetworkGraph&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dir-moviesnode-linkchart&#47;SimpleNetworkGraph' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;Dir-moviesnode-linkchart&#47;SimpleNetworkGraph&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1714202702481');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='600px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
+          <div class='tableauPlaceholder' id='viz1714287764242'style="width:60%; display: inline-block; float:right;"><noscript><a href='#'><img alt='Simple Network Graph ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;Dir-moviesnode-linkchart&#47;SimpleNetworkGraph&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dir-moviesnode-linkchart&#47;SimpleNetworkGraph' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Di&#47;Dir-moviesnode-linkchart&#47;SimpleNetworkGraph&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1714287764242');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='700px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='700px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+          <div class = "mainbody5" style="width: 40%; display: inline-block"> <br> <br><br><br><br><br> Directors and their Movies that make to Top 250 IMDB List </div>
 
-          <div class = "mainbody5" style="width: 49%; display: inline-block"> <br> <br><br><br><br><br> A big role in creating commercial success is played by the director as well. The node-link visualization vividly showcases the extraordinary achievements of directors like Christopher Nolan and Martin Scorsese, both boasting an impressive 7 movies listed in the Top 250. However, it also unveils the emergence of numerous debut directors who have managed to deliver blockbuster hits, signaling a dynamic shift in the industry landscape. Visualization also displays the prowess of non-English film directors such as, Akira Kurosawa and Hayao Miyazaki, both of whom have delivered multiple blockbusters raking in both high rating and box-office revenue.</div>
-    </div>
+  <div class ="mainbody5-copy"> A big role in creating commercial success is played by the director as well. The node-link visualization vividly showcases the extraordinary achievements of directors like Christopher Nolan and Martin Scorsese, both boasting an impressive 7 movies listed in the Top 250. However, it also unveils the emergence of numerous debut directors who have managed to deliver blockbuster hits, signaling a dynamic shift in the industry landscape. Visualization also displays the prowess of non-English film directors such as, Akira Kurosawa and Hayao Miyazaki, both of whom have delivered multiple blockbusters raking in both high rating and box-office revenue.</div>
+  </div>
 
     <div style="display: inline">
     
           <div class='tableauPlaceholder3' id='viz1714200959488' style="width:55%; display: inline-block; float:left;"><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tableau_rec&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='tableau_rec&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ta&#47;tableau_rec&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1714200959488');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
-          <div class = "mainbody4" style="width: 44%; display: inline-block"> <br><br><br><br><br><br><br><br>Analyzing movies by their release year and adjusted revenue offers a clearer view of their profitability. The inflation-adjusted revenue data paints a vivid picture of the explosive growth in the movie industry over the past century. In the 1920s, the average film box office collection hovered around $35,000, with box office returns of roughly below $1 million. However, classics like Ben-Hur (1959) often rivaled the earnings of contemporary hits like Top Gun Maverick. Notably, a cluster of top-grossing and highly rated films emerged after the 2000s, including Batman Begins, Wall-E, Up, Inception, and Interstellar, each surpassing $200 million in adjusted revenue. However, it's misleading to assume that higher ratings always correlate with box-office success, as evidenced by films like Reservoir Dogs and Before Sunrise, which garnered low revenue despite critical acclaim.</div>
-    </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div class = "mainbody4" style="width: 35%; display: inline-block"> Budget, Box-Office, Rating from Year 1921 to 2022 of Top 250 IMDB Movies </div>
+
+    <div class="mainbody4-copy"> Analyzing movies by their release year and adjusted revenue offers a clearer view of their profitability. The inflation-adjusted revenue data paints a vivid picture of the explosive growth in the movie industry over the past century. In the 1920s, the average film box office collection hovered around $35,000, with box office returns of roughly below $1 million. However, classics like Ben-Hur (1959) often rivaled the earnings of contemporary hits like Top Gun Maverick. Notably, a cluster of top-grossing and highly rated films emerged after the 2000s, including Batman Begins, Wall-E, Up, Inception, and Interstellar, each surpassing $200 million in adjusted revenue. However, it's misleading to assume that higher ratings always correlate with box-office success, as evidenced by films like Reservoir Dogs and Before Sunrise, which garnered low revenue despite critical acclaim.</div>
+  </div>
     </center>
+
     <div class = "mainbody6">
     Interestingly, this growth has not been accompanied by a corresponding rise in critical acclaim. The average IMDb rating for films has remained relatively stable at around 8.3 over the decades, suggesting that while movies have gotten bigger and more expensive, they haven't necessarily gotten "better" in the eyes of critics and audiences. This raises intriguing questions about the relationship between financial success and artistic merit in the modern blockbuster era. Are studios sacrificing creativity and originality in the pursuit of ever-greater spectacle and box office returns? Or do these massive budgets allow filmmakers to push the boundaries of what's possible on screen, even if the end results don't always resonate with critics? As the movie business continues to evolve and adapt to changing technologies and audience preferences, these are the kinds of complex issues that will shape its future direction.
     </div>
