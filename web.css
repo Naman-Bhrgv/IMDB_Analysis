@@ -5,8 +5,7 @@
     /* padding: 60px; */
   /* } */ 
 
-
-  .title {
+.title {
     font-size: 40px;
     color: yellow;
     font-weight: bold;
@@ -14,14 +13,14 @@
     font-family: 'Helvetica', sans-serif;
   }
 
-  .mainbody{
+.mainbody{
     color: white;
     font-family: Verdana, sans-serif;
     padding-top: 20px;
     padding-bottom: 70px;
     
   }
-  .mainbody2{
+.mainbody2{
     color : white;
     font-family: Verdana, sans-serif;
     
@@ -30,7 +29,7 @@
 
   }
 
-  .mainbody3{
+.mainbody3{
     color: white;
     font-family: Verdana, sans-serif;
     padding-top: 50px;
@@ -38,28 +37,28 @@
 
   }
 
-  .mainbody4{
+.mainbody4{
     color: white;
     font-family: Verdana, sans-serif;
     padding-top: 50px;
     padding-bottom: 70px;;
   }
 
-  .mainbody5{
+.mainbody5{
     color: white;
     font-family: Verdana, sans-serif;
     padding-top: 50px;
     padding-bottom: 70px;
   }
 
-  .mainbody6{
+.mainbody6{
     color: white;
     font-family: Verdana, sans-serif;
     padding-top: 50px;
     padding-bottom: 70px;
   }
 
-  #viz1714190550793 {
+#viz1714190550793 {
     border: 1px solid white;
   }
 
