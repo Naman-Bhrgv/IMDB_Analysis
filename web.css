@@ -10,20 +10,17 @@
     color: yellow;
     font-weight: bold;
     padding-bottom: 10px;
-    font-family: 'Helvetica', sans-serif;
+    
   }
 
 .mainbody{
     color: white;
-    font-family: Verdana, sans-serif;
     padding-top: 20px;
     padding-bottom: 70px;
     
   }
 .mainbody2{
-    color : white;
-    font-family: Verdana, sans-serif;
-    
+    color : white;    
     padding-top: 50px;
     padding-bottom: 70px;
 
@@ -31,7 +28,6 @@
 
 .mainbody3{
     color: white;
-    font-family: Verdana, sans-serif;
     padding-top: 50px;
     padding-bottom: 70px;
 
@@ -39,21 +35,18 @@
 
 .mainbody4{
     color: white;
-    font-family: Verdana, sans-serif;
     padding-top: 50px;
     padding-bottom: 70px;;
   }
 
 .mainbody5{
     color: white;
-    font-family: Verdana, sans-serif;
     padding-top: 50px;
     padding-bottom: 70px;
   }
 
 .mainbody6{
     color: white;
-    font-family: Verdana, sans-serif;
     padding-top: 50px;
     padding-bottom: 70px;
   }
