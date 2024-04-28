@@ -1,0 +1,75 @@
+/* 
+
+.title-box {
+    /* background-color: black; */
+    /* padding: 60px; */
+  /* } */ 
+
+
+  .title {
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: 'Helvetica', sans-serif;
+  }
+
+  .mainbody{
+    color: white;
+    font-family: Verdana, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    
+  }
+  .mainbody2{
+    color : white;
+    font-family: Verdana, sans-serif;
+    
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+  }
+
+  .mainbody3{
+    color: white;
+    font-family: Verdana, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+  }
+
+  .mainbody4{
+    color: white;
+    font-family: Verdana, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 70px;;
+  }
+
+  .mainbody5{
+    color: white;
+    font-family: Verdana, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  .mainbody6{
+    color: white;
+    font-family: Verdana, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  #viz1714190550793 {
+    border: 1px solid white;
+  }
+
+  /* div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  } */
